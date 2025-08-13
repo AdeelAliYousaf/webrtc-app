@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from "react";
 import { Video, Phone, PhoneOff, Copy } from "lucide-react";
 
-const BACKEND_URL = "https://houseofazaan.ca";
+const BACKEND_URL = "https://localhost:8080";
 
 export default function App() {
   const [mode, setMode] = useState("menu"); // menu | call
